@@ -1,5 +1,6 @@
 var character = document.getElementById("character");
 var block = document.getElementById("block");
+
 // var counter = 0;
 function jump () {
     if(character.classList !=  "animate")
@@ -18,10 +19,10 @@ var checkDead = setInterval(function(){
     var blockLeft = 
     parseInt(
     window.getComputedStyle(block).getPropertyValue("left"));
-    if (blockLeft < 280 && blockLeft >0 && characterTop >=625 ){
+    if (blockLeft < 280 && blockLeft >0 && characterTop >=640 ){
         block.style.animation = "none";
         block.style.display = "none";
-        alert("You lost!");
+        alert("You lost! GAME OVER ");
 
     }
 },10);

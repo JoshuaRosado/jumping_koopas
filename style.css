@@ -34,8 +34,8 @@
 
 @keyframes jump{
     0%{top: 640px;}
-    30%{top: 400px;}
-    70%{top: 400px;}
+    30%{top: 450px;}
+    70%{top: 450px;}
     100%{top: 640px;}
 }
 
@@ -58,6 +58,6 @@
 
 @keyframes block{
     0%{left:200vh;}
-    100%{left: -40px;}
+    100%{left: -20px;}
 }
 
